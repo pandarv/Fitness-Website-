@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ephesis&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Registration</title>
+  </head>
+  <body>
+    <header id="header-mem">
+      <div class="container">
+        <nav class="home-nav">
+          <div>
+            <a class="logo" href="index.html">
+              <i class="fas fa-4x fa-dumbbell rotate"></i>
+              <h1>Fitness</h1>
+            </a>
+          </div>
+          <ul>
+            <li><a href="#">Workout</a></li>
+            <li><a href="#">Locations</a></li>
+            <li><a href="membership.html" class="current">Membership</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="form-container">
+      <div class="container-mem">
+        <form id="form" class="form">
+          <h2>Membership form</h2>
+          <div class="form-crtl">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Full Name" />
+            <small>Error messagge</small>
+          </div>
+          <div class="form-crtl">
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="Username" />
+            <small>Error messagge</small>
+          </div>
+          <div class="form-crtl">
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="Email" />
+            <small>Error messagge</small>
+          </div>
+          <div class="form-crtl">
+            <label for="password">Password</label>
+            <input type="text" id="password" placeholder="Enter password" />
+            <small>Error messagge</small>
+          </div>
+          <div class="form-crtl">
+            <label for="password2">Confirm password</label>
+            <input type="text" id="password2" placeholder="Re-enter password" />
+            <small>Error messagge</small>
+          </div>
+          <button class="btn btn-more">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- <footer></footer> -->
+    <script src="index.js"></script>
+  </body>
+</html>
